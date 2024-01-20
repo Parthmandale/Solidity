@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "blockValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ctfLearning.sol/CoinFlip.sol": "CoinFlip"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ctfLearning.sol/CoinFlip.sol": {
+			"keccak256": "0x05c8f282d6512ad76ac5ee71f99d74054f802fca3d92046772d4569f954cd7cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71820fb9085d521589a3db660a95927717e3093fc574c7b3837d0b44a84cfd6d",
+				"dweb:/ipfs/QmUqSZtELEy5DKgcaNgEUp63U73R8gnLSX5iu7g9Dk5sjM"
+			]
+		}
+	},
+	"version": 1
+}
