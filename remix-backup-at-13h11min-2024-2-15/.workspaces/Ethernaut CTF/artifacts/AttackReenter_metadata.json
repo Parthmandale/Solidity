@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "_victim",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Reentrency_10.sol": "AttackReenter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Reentrency_10.sol": {
+			"keccak256": "0x0d5a67fc4767b217c6697814f8703e38c0998d0929f136eb7ca3a581709c494c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://554aea80a2d94509775a6068a5ef84493f1190074a20f959c401ccfba4896d27",
+				"dweb:/ipfs/QmV7CrdBp2LvUPB1oxHVpTeg1yAGPxUgETMZL41ZFexKoi"
+			]
+		},
+		"SafeMath.sol": {
+			"keccak256": "0x5cc80eed613f6d19c1965acefcda59ccb7150dce6d90951cd9ff5171eca42fab",
+			"urls": [
+				"bzz-raw://0cb87b24e02bab980e2c9b95217114c8df8866447751794cb5587aea3e117385",
+				"dweb:/ipfs/Qme4atS9MANd7ArwKxm1bTxGfx5NffypHSehR78dFL4r4J"
+			]
+		}
+	},
+	"version": 1
+}

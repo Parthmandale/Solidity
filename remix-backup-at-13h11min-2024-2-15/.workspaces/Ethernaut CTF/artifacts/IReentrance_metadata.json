@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Reentrency_10.sol": "IReentrance"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Reentrency_10.sol": {
+			"keccak256": "0xbcd48f3a5176dc105b1322a2d65d242b1f571b324ce62a7b5fd759f0da4a3d85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6637e5711ff12baa400015816ae7e76d797adeb10969c3f7f574b74d84a39785",
+				"dweb:/ipfs/QmaMpD1AfSCJNbPtDhEL1C3sCxtJXogAoAgYbtS1oKH1uM"
+			]
+		}
+	},
+	"version": 1
+}

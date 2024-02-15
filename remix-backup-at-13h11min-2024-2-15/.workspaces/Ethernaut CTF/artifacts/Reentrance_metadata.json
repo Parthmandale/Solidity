@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Reentrency_10.sol": "Reentrance"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Reentrency_10.sol": {
+			"keccak256": "0xd27c0d05bb48666bede726673602aa3cac051291a0867ff54841f90f9d817672",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5feda9263ded4e0dc06f9c864d617df639f9f630510bed352bbca31d61468a44",
+				"dweb:/ipfs/QmT6SMpSh9LLJx367jDRzzGUFPmBYBkGppvo5ndNUKx48C"
+			]
+		},
+		"SafeMath.sol": {
+			"keccak256": "0x5cc80eed613f6d19c1965acefcda59ccb7150dce6d90951cd9ff5171eca42fab",
+			"urls": [
+				"bzz-raw://0cb87b24e02bab980e2c9b95217114c8df8866447751794cb5587aea3e117385",
+				"dweb:/ipfs/Qme4atS9MANd7ArwKxm1bTxGfx5NffypHSehR78dFL4r4J"
+			]
+		}
+	},
+	"version": 1
+}

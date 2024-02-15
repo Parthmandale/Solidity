@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5_Token.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5_Token.sol": {
+			"keccak256": "0x95541e60955784be8509280630226dee70cd1220f2ac986df076274dd2c0df40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d2bae60e972278e2f891e4898a18e386dda3610cb74085b22dd0df81c0442212",
+				"dweb:/ipfs/QmVzxgsPkPqLg4VdajdCszKk7WzqyzZ2Rs1pJdafuwEByF"
+			]
+		}
+	},
+	"version": 1
+}
